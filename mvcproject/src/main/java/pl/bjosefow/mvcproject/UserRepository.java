@@ -1,4 +1,4 @@
-package pl.bjosefow.mvcprojekct;
+package pl.bjosefow.mvcproject;
 
 import org.springframework.stereotype.Repository;
 

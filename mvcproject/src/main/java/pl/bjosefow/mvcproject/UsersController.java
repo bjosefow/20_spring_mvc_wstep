@@ -1,4 +1,4 @@
-package pl.bjosefow.mvcprojekct;
+package pl.bjosefow.mvcproject;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +17,7 @@ public class UsersController {
 
     @RequestMapping(value = "/add", method = {RequestMethod.POST, RequestMethod.GET})
     public String addUser(@RequestParam String imie, @RequestParam String nazwisko, @RequestParam (defaultValue = "0") Integer wiek) {
-        if (imie != "") {
+        if (!imie.equals("")) {
             userRepository.addUserToList(new User(imie, nazwisko, wiek));
             return "redirect:/success.html";
         } else {
