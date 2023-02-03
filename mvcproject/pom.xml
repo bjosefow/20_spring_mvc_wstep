@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.bjosefow</groupId>
-    <artifactId>mvcproject</artifactId>
+    <artifactId>mvcprojekct</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mvcproject</name>
-    <description>mvcproject</description>
+    <name>mvcprojekct</name>
+    <description>mvcprojekct</description>
     <properties>
         <java.version>17</java.version>
     </properties>
